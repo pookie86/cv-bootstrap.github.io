@@ -1,0 +1,170 @@
+/* GENERAL*/
+
+
+body{
+
+    font-family: 'lato', sans-serif;
+}
+h2,h4,h5,h6 {
+
+    font-weight: bold;
+    color:#130B09;
+}
+
+img {
+
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+section .heading {
+
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+section {
+
+    padding: 45px 0 80px 0; 
+
+}
+
+
+.orange-divider {
+
+    width: 100px;
+    height: 2px;
+    background: #D46737;
+    margin: 0 auto;
+}
+
+.white-divider {
+
+    width: 100px;
+    height: 2px;
+    background: #E7D8C3;
+    margin: 0 auto;
+}
+/*ABOUT*/
+
+#about {
+
+    padding-top: 100px;
+    background: #D46737;
+}
+
+.profile-picture {
+
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+#about .heading h3 {
+
+    color:  #E7D8C3;
+}
+
+
+.button1 {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #D46737;
+    display: inline-block;
+    opacity: 0.9;
+    color:  #E7D8C3;;
+    border: 1px solid #E7D8C3;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+
+
+.button1:hover {
+
+    background-color: #E7D8C3;
+    color:  #130B09;
+    text-decoration: none;
+}
+
+
+/*SKILLS*/
+
+#skills {
+
+    background: #E7D8C3;
+}
+
+#skills .heading h2 {
+
+    color: #D46737;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+
+#skills .progress {
+
+    height: 100%;
+    margin:30px 20px;
+    background: #ddd;
+}
+
+#skills .progress-bar {
+    background: #D46737;
+}
+
+#skills .progress h5 {
+        text-shadow: 1px 1px 1px #130B09;
+        color: #E7D8C3;
+        padding-top: 4px;  
+
+}
+
+/*EXPERIENCE*/
+
+#experience {
+
+    background: #D46737;
+
+}
+
+
+
+#experience h2 {
+
+    color: #E7D8C3; 
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
