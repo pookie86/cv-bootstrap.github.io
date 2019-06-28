@@ -51,7 +51,7 @@ section {
 
     width: 100px;
     height: 2px;
-    background: linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
     margin: 0 auto;
 }
 
@@ -67,10 +67,11 @@ section {
 
 .navbar {
 
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
+   
 }
 
 .navbar-nav {
@@ -95,14 +96,14 @@ a.nav-item.nav-link,
 a.nav-item.nav-link:hover,
 a.navbar-brand:hover {
 
-    color: #E7D8C3 !important;
+    color: #fff7f2 !important;
     transition: all 0.3s ease-in 0s;
 
 }
 
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
 
-    border-bottom: 1px solid rgb(241, 226, 205);
+    border-bottom: 1px solid #fff7f2;
 
 }
 
@@ -111,7 +112,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
 #about,
 .navbar {
 
-    background: linear-gradient(-45deg, rgb(241, 226, 205), #D46737, rgb(241, 226, 205), #D46737, #D46737);
+    background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
@@ -170,7 +171,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
 
 div.heading h3 {
 
-    color: rgb(241, 226, 205);
+    color: #fff7f2;
 }
 
 
@@ -178,11 +179,11 @@ div.heading h3 {
 
     font-weight: bold;
     text-transform: uppercase;
-    background-color: linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background-color: linear-gradient(25deg, #D46737, #ffe7d4);
     display: inline-block;
     opacity: 0.9;
-    color: rgb(241, 226, 205);
-    border: 1px solid rgb(241, 226, 205);
+    color: #fff7f2;
+    border: 1px solid #fff7f2;
     margin-top: 20px;
     padding: 18px 50px;
     border-radius: 3px;
@@ -193,8 +194,8 @@ div.heading h3 {
 
 .button1:hover {
 
-    background-color: rgb(241, 226, 205);
-    color: #D46737;
+    background-color: #fff7f2;
+    color: #cd4c76;
     text-decoration: none;
 }
 
@@ -203,12 +204,12 @@ div.heading h3 {
 
 #skills {
 
-    background: rgb(241, 226, 205);
+    background: #fff;
 }
 
 #skills .heading h2 {
 
-    background: -webkit-linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background: -webkit-linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -219,17 +220,17 @@ div.heading h3 {
 
     height: 100%;
     margin: 30px 20px;
-    background: #fff;
+    background: #fff7f2;
 }
 
 #skills .progress-bar {
-    background: linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
 
 }
 
 #skills .progress h5 {
     text-shadow: 1px 1px 1px #130B09;
-    color: #fff;
+    color: #f1edff;
     padding-top: 4px;
     font-size: 12px;
 
@@ -239,7 +240,7 @@ div.heading h3 {
 
 #experience {
 
-    background: linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
 
 }
 
@@ -247,7 +248,7 @@ div.heading h3 {
 
 #experience .heading h2 {
 
-    color: rgb(241, 226, 205);
+    color: #fff7f2;
     text-transform: uppercase;
     padding-top: 20px;
 
@@ -332,7 +333,7 @@ div.heading h3 {
     padding: 20px 25px;
     position: relative;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    background: rgb(241, 226, 205);
+    background: #fff7f2;
 }
 
 .timeline-panel-container-inverted .timeline-panel {
@@ -351,8 +352,8 @@ div.heading h3 {
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid rgb(241, 226, 205);
-    border-right: 0 solid rgb(241, 226, 205);
+    border-left: 14px solid #fff7f2;
+    border-right: 0 solid #fff7f2;
     border-bottom: 14px solid transparent;
     content: " ";
 }
@@ -378,7 +379,7 @@ div.heading h3 {
 
 #formation {
 
-    background: rgb(241, 226, 205);
+    background:#fff7f2;
 }
 
 #formation .heading h2 {
@@ -391,17 +392,17 @@ div.heading h3 {
     margin: 0 auto;
     text-align: center;
     padding: 30px;
-    border: 4px solid;
-    border-image: linear-gradient(45deg, #D46737, #ddd) 1;
-    margin-bottom: 20px;
-    border-radius: 3px;
+    border: 1px solid #cd4c76;
+    border-radius: 7px;
+    background-color: fff7f2
+
     
 
 }
 
 
 
-.education-block h5 {
+.formation-block h5 {
 
     color: #888;
     font-size: 15px;
@@ -409,18 +410,18 @@ div.heading h3 {
 
 }
 
-.education-block h3 {
+.formation-block h3 {
 
     color: #D46737;
 }
 
 
-.education-block h4 {
+.formation-block h4 {
 
     color: #212529;
 }
 
-.education-block .orange-divider {
+.formation-block .orange-divider {
 
     margin-bottom: 20px;
     margin-top: 20px;
@@ -432,13 +433,13 @@ div.heading h3 {
 
 #portfolio {
 
-    background: linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
 
 }
 
 #portfolio .heading h2 {
 
-    color: rgb(241, 226, 205);
+    color: #fff7f2;
     text-transform: uppercase;
     padding-top: 20px;
 }
@@ -465,14 +466,14 @@ div.heading h3 {
 
 #reco {
 
-    background: #E7D8C3;
+    background: #fff7f2;
 
 }
 
 #reco .heading h2,
 #formation .heading h2 {
 
-    background: -webkit-linear-gradient(25deg, #D46737, rgb(241, 226, 205));
+    background: -webkit-linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -539,7 +540,7 @@ i.fas.fa-chevron-up {
 
     font-size: 25px;
     margin: 20px;
-    color: #D46737;
+    color: #cd4c76;
 
 }
 
