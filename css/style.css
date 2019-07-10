@@ -18,6 +18,7 @@ h6 {
 
 h1 {
     font-weight: bold;
+
 }
 
 ul,
@@ -67,7 +68,6 @@ section {
 
 .navbar {
 
-    font-size: 15px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
@@ -82,6 +82,8 @@ section {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 5rem;
+    font-size: 17px;
+
 
 }
 
@@ -90,9 +92,16 @@ a.nav-item.nav-link,
 #navbarNavAltMarkup {
 
     text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
 }
 
+a.navbar-brand {
+    color: #fff7f2 !important;
+
+
+}
 a.nav-item.nav-link:hover,
 a.navbar-brand:hover {
 
@@ -108,6 +117,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
 }
 
 /*ABOUT*/
+
+#about.container-fluid {
+
+    padding-top: 140px;
+}
 
 #about,
 .navbar {
@@ -218,23 +232,23 @@ div.heading h3 {
 
 #skills .progress {
 
-    height: 100%;
     margin: 30px 20px;
     background: #fff7f2;
 }
 
 #skills .progress-bar {
     background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
-
 }
 
 #skills .progress h5 {
     text-shadow: 1px 1px 1px #130B09;
     color: #f1edff;
     padding-top: 4px;
-    font-size: 12px;
+    font-size: 15px;
 
 }
+
+
 
 /*EXPERIENCE*/
 
