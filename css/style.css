@@ -81,7 +81,7 @@ section {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 5rem;
+    padding-right: 4.5rem;
     font-size: 17px;
 
 
@@ -571,4 +571,81 @@ i.fas.fa-chevron-up:hover {
 
     color: #E7D8C3;
     font-weight: normal;
+}
+
+/*CONTACT*/
+
+#contact {
+
+    background: linear-gradient(-45deg,#d46737, #c85161, #a24f7e, #705385, #425175);
+}
+
+
+
+#contact .heading h2 {
+
+    color: #fff7f2;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+#contact-form {
+
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.button2 {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff7f2;
+    display: inline-block;
+    opacity: 0.9;
+    border: 1px solid #fff7f2;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+
+
+.button2:hover {
+
+    background-color: #fff7f2;
+    color: #cd4c76;
+    text-decoration: none;
+}
+
+
+.form-control {
+
+    height: 50px;
+    font-size: 18px;
+}
+
+.comments {
+
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+
+#submit{
+
+  margin: 40px auto 0px;
+
+}
+
+
+.thanks {
+
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
